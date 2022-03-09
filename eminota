@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="js/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui.theme.css">
+    <link rel="stylesheet" href="js/jquery-ui.structure.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fa/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon">
+    <title>About Us - Eminota Printing Press</title>
+</head>
+<body>
+    <header>
+        <!-- LOGO -->
+        <a href="index.html" class="logo d-inline-block"><img src="images/logo.jpg" alt="logo"></a>
+        <!-- TOGGLE -->
+        <p class="d-inline-block bars">
+            <button class="btn border1 hover" style="border-color: lightblue;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <span class="fa fa-bars"></span>
+            </button>
+        </p>
+        <!-- NAVS AND LINKS TO BE TOGGLED -->
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <div class="nav w-30">
+                    <ul class="ul">
+                        <li><a class="list" href="index.html">Home</a></li>
+                        <li><a class="list" href="business.html">Business</a></li>
+                        <li><a class="list" href="contact.php">Contact-us</a></li>
+                        <li><a class="list" href="services.html">Services</a></li>
+                        <li><a class="list" href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="about " style="background-color: #F5F6FA;">
+        <h1 class="d-inline-block hi"><b>About Us</b></h1>
+        <div class="link_to d-inline-block">
+            <a href="index.html" style="color: #ffff">Homepage</a>
+            <span>- About</span>
+        </div>
+    </div>
+    <div class="pic">
+        <!-- IMAGE -->
+        <img src="images/rollers.jpg" alt="">
+    </div>
+    <div class="how">
+        <div class="p-3 about_eminota d-inline-block">
+            <h1>About Us</h1>
+            <p>We are experienced printers and designers of books and other printable articles, we also print perfect designs on t-shirts. We have been operating for over 15 years, continuously extending our offer. <br> Our company is located in Enugu, Nigeria, but we handle and deliver our products to our customers all over the nation and possibly beyond. Affordable prices, quick completion time and wide partnering possibilities makes us perfect for work.</p>
+        </div>
+        <div class="p-3 good d-inline-block">
+            <h1>Our Offers</h1>
+            <p>We are an organisation that offers a wide range of services, designing, printing, publishing, packaging and delivery to all parts of the nation. <br> We offer these services with advanced modern machines that cut books, laminates and prints. Our offers include laminated films, brochures, magazines, envelopes, cards and other forms of paper packaging.</p>
+        </div>
+    </div>
+    <div class="that d-inline-block">
+        <div class="print_image d-inline-block"><img src="images/print_about.jpg" alt="about"></div>
+        <div class="back text-align-right d-inline-block">
+            <div class="text"><h1>IT'S HOW WE WORK</h1></div>
+            <p>Giving our customers great satisfaction is our big push <br> to further improvement.</p>
+            <a href="contact.php" class="link1 act">Contact Us</a>
+        </div>
+    </div>
+    <div class="last_section">
+        <div class="text_written d-inline-block">
+            <h2 style="color: blue">Eminota</h2>
+            <h1 style="color: blue">Publishers and Printers</h1>
+            <p>Thanks to the vast experience, determination and hardwork, we have strived to bring smiles on the faces of our customers by associating them with high-quality services and products, always delivered on time. <br> Depending on the experience and determination has often lead us to face very tough tasks that seemed impossible to tackle.</p>
+            <p>We are happy and proud of our accomplishments and overtaken struggles. This is the very big push which helps us give our customers and partners greater satisfaction and urges us to improve better in our every work. <br> Due to past and present researches, we find better ways to improve our print works and designs perfectly and give our customers a work that is not manageable but agreeable.</p>
+        </div>
+        <div class="image_0 d-inline-block"><img src="images/books.webp" alt=""></div>
+    </div>
+    <footer class="border1" style="height: 450px; background-color: #000; color: #fff; padding-top: 60px;">
+        <!-- THE FIRST LAYER THAT CONTAINS THE FOOTER LINKS AND ALL -->
+        <div class="container">
+            <div class="box1 w-50 p-3 d-inline-block" style="height:250px; margin-bottom: 30px; margin-right: 100px;">
+                <h4 class="mb-4"><b style="font-size: 30px;">About Eminota</b></h4>
+                <p style="font-size: 18px;">Eminota is a printing and publishing company that is very passionate about bringing and giving the best services you could have. Our customer satisafaction is key both in quality and in timing.</p>
+            </div>
+            <div class="img1 d-inline-block" style="width: 35%; height: 130px; margin-top: 60px; "><img src="images/logo-black.jpg" alt="logo-black"></div>
+            <div class="sth border" style="margin-bottom: 40px;"></div>
+            <div class="box2" style="margin-left: 60px;">
+                <ul class="ul2">
+                    <li class="mb-3 d-inline-block"><a id="link1" href="business.html">Business</a></li>
+                    <li class="mb-3 d-inline-block"><a id="link1" href="about.html">About</a></li>
+                    <li class="mb-3 d-inline-block"><a id="link1" href="services.html">Services</a></li>
+                    <li class="mb-3 d-inline-block"><a id="link3" href="contact.php">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- THE END -->
+    </footer>
+
+
+
+
+
+
+<script src="js/jquery2.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+    

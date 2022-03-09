@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
+    <!-- <link rel="stylesheet" href="js/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui.theme.css">
+    <link rel="stylesheet" href="js/jquery-ui.structure.css"> -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fa/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon">
+    <title>Eminota Printing Press</title>
+</head>
+<!-- EMINOTA HOME PAGE -->
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <!-- LOGO -->
+        <a href="index.html" class="logo d-inline-block"><img src="images/logo.jpg" alt="logo"></a>
+        <!-- TOGGLE -->
+        <p class="d-inline-block bars">
+            <button class="btn border1 hover" style="border-color: lightblue;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <span class="fa fa-bars"></span>
+            </button>
+        </p>
+        <!-- NAVS AND LINKS TO BE TOGGLED -->
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <div class="nav w-30">
+                    <ul class="ul">
+                        <li><a class="list" href="index.html">Home</a></li>
+                        <li><a class="list" href="business.html">Business</a></li>
+                        <li><a class="list" href="contact.php">Contact-us</a></li>
+                        <li><a class="list" href="services.html">Services</a></li>
+                        <li><a class="list" href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>    
+    <!-- SLIDER SECTION -->
+    <div class="box" style="margin-bottom: 100px;">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Graphic1.png" class="d-block w-100" alt="img1" style="width: 100px; height: 500px">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Graphic2.png" class="d-block w-100" alt="plants" style="width: 100px; height: 500px">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Graphic3.png" class="d-block w-100" alt="plant" style="width: 100px; height: 500px">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Graphic4.png" class="d-block w-100" alt="plant" style="width: 100px; height: 500px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- INTRODUCTORY SECTION -->
+    <section class="welcome">
+        <div class="one">
+            <div class="image d-inline-block"><img src="images/laptop.jpg" alt=""></div>
+            </div>
+            <div>
+                <h4 style="color: blue; font-size: 40px;">Welcome to Eminota</h4>
+                <h1><b>Dream it. We Print it!</b></h1>
+                <p style="font-size: 17px; color: grey;">We are not satisfied or comfortable until your dream work has been converted from your imaginations to hard copy. Whether it's an image, an article for publication, wedding cards or birthday invitations, we have it all covered and we will give in our very best.</p>
+                <p style="font-size: 17px; margin-bottom: 40px; color: grey;">Designing is what we do and we believe it will go an extra mile to make businesses better.</p>
+            </div>
+        </div>
+        <!-- ANOTHER SECTION -->
+        <div class="two">
+            <h1>
+                <b>Printing is what we do</b></h1>
+                <p style="font-size: 17px; color: grey; width: 70%;">Utilising our maximum skills to bring about a perfect print-out for you. We print the best possible designs you can get anywhere and we are always at your service.</p>
+                <h2><b>CREATE, DESIGN AND PUBLISH</b></h2>
+            </div>
+            <div class="image d-inline-block" ><img src="images/publish_books_write.jpg" alt="" id="img2"></div>
+        </div>
+        <a href="business.html" class="link">Learn more</a>
+    </section>
+    <!--  FEATURES OF EMINOTA  -->
+    <div class="info" style="padding-top: 50px;">
+        <div class="feature text-align-center">
+            <h4 style="color: blue;">Our features</h4>
+            <h1><b style="font-size: 50px;">What We Do</b></h1>
+            <p style="font-size: 20px;">Creating and designing well published journals</p>
+        </div>
+        <div class="box1">
+            <div class="img1"><img src="images/IT_train.jpg" alt="students"></div>
+            <div class="img2 mb-5" id="toggledown" style="padding: 20px;">
+                <h2 class="mb-4">IT Training</h2>
+                <p>Students and volunteers who love designing as much as we do come to work on their designing skills to improve and become better.</p>
+                <a href="services.html" id="link" class="fa fa-angle-right linkto"></a>    
+            </div>
+        </div>
+        <div class="boxa m-5">
+            <div class="boxb d-inline-block p-3">
+                <span class="fa fa-print mb-4"></span>
+                <h2>Printing</h2>
+                <p>Bringing the best out of printing.</p>
+                <a href="services.html" id="link" class="fa fa-angle-right linkto"></a>    
+            </div>
+            <div class="boxb d-inline-block p-3">
+                <span class="fa fa-book mb-4"></span>
+                <h2>Articles For Publication</h2>
+                <p>Bring up any article for publication and get it done.</p>
+                <a href="services.html" id="link" class="fa fa-angle-right linkto"></a>    
+            </div>
+        </div>
+    </div>
+    <!-- LEARN MORE ABOUT EMINOTA BUSINESS -->
+    <div class="advert" style="padding-left: 30px;padding-top: 20px;height: 350px">
+        <div class="img d-inline-block" style="margin-right: 30px;"><img src="images/Email-Marketing-copy-768x648.jpg" alt=""></div>
+        <div class="img d-inline-block" style="padding-top: 45px; padding-left: 10px;">
+            <h3 class="mb-4">Get Maximum Satisfaction From Our Print Works</h3>
+            <p class="mb-4">Print all brochures, banners, business cards, birthday cards, posters and other related work.</p>
+            <a href="contact.php" class="link1">Contact Us</a>
+        </div>
+    </div>
+    <!-- THIS SECTION TALKS ABOUT THE DISTRIBUTION OF THE EMINOTA PRINT WORKS -->
+    <div class="ads" style="height: 550px">
+        <div class="box1 border1 d-inline-block p-4">
+            <!-- SLIDE SECTION -->
+            <div class="boxa" style="border: 2px solid red; height: 100%;">
+                <!-- SLIDES FOR DISPLAY -->
+                <div style="height: 100%;" id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" style="height: 100%;">
+                        <div class="carousel-item active" style="height: 100%;">
+                            <img src="images/Graphic7.png" style="border: 2px solid #000;" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_1983.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="plant cell.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box2 d-inline-block">
+            <h1 class="mb-4">Worried About Your Destination?</h1>
+            <p>We believe in the words "Distance is not a barrier". Wherever you are, we'll try to deliver your dream work to your doorstep at an affordable price.</p>
+            <div class="line border mb-3"></div>
+            <h2>Worried About The Design That Will Suite Your Taste?</h2>
+            <p>Having the best designers on ground, we promise you a design that will match what you truly had in mind.</p>
+            <i>All you have to do is describe it!!!</i>
+        </div>
+    </div>
+    <!-- EMINOTA'S BUSINESS LINES -->
+    <div class="business" style="height: 450px; padding-top: 50px;">
+        <div class="stuff p-3">
+            <p>Business Printing</p>
+            <h2><b class="mb-5">Even Better Stuff</b></h2>
+            <ul class="d-inline-block gosh">
+                <li class="better">Professional designs with added fizz</li>
+                <li class="better">Create a pack of your business stationary</li>
+                <li class="better">Totally safe for laser printers</li>
+            </ul>
+            <a href="about.html" class="link2 d-block pl-3">Learn More</a>
+        </div>
+    </div>
+    <!-- PRINTING SERVICES -->
+    <div class="print p-5" style="height: 550px; background-color: #F5F6FA;">
+        <div class="box1 d-inline-block">
+            <span>Check out our business</span>
+            <h1><b>Explore Printing Services</b></h1>
+            <p>We're are a print and design company that offers the best designs and are passionate about what we do.</p>
+            <p>Having set a standard of actualizing new print designs that will glue your eyes to the print work, we are sure of delivering works that you will love.</p>
+            <a href="business.html" class="link1">Learn More</a>
+        </div>
+        <div class="box2 d-inline-block">
+            <img src="images/istockphoto-466222336-612x612.jpg" alt="">
+        </div>
+    </div>
+    <!-- THIS SECTION IS ABOUT THE COLOURS OF THE CARDS -->
+    <div class="colour" style="height: 350px">
+        <div class="box1 border1 d-inline-block" style="margin-right: -5px;">
+            <h1><b>Get a Feel For Colors</b></h1>
+            <p>Print full colors on both side of your cards.</p>
+        </div>
+        <div class="box2 d-inline-block"><img src="images/color.jpg" alt="color"></div>
+    </div>
+    <!-- RECENT PROJECTS OF EMINOTA -->
+    <div class="recent pt-5">
+        <div class="project text-align-center">
+            <span style="color: blue; font-size: 20px;">Work Showcase</span>
+            <h1><b style="font-size: 50px; margin-bottom: 20px;">Recent Projects</b></h1>
+            <p style="font-size: 20px; color: grey;">We have undertaken many print projects with perfect designs</p>
+        </div>
+        <div class="pics" style="height: 380px; padding-top: 25px; padding-left: 60px;">
+            <div class="img1 d-inline-block"><a href="business.html"><img src="images/Graphic3.png" alt=""></a></div>
+            <div class="img1 d-inline-block"><a href="business.html"><img src="images/Graphic6.png" alt="pics"></a></div>
+            <div class="img1 d-inline-block"><a href="business.html"><img src="images/Graphic5.png" alt=""></a></div>
+        </div>
+    </div>
+    <!-- THIS IS THE FOOTER OF EMINOTA -->
+    <footer class="border1">
+        <!-- THE FIRST LAYER THAT CONTAINS THE FOOTER LINKS AND ALL -->
+        <div class="container">
+            <div class="box1 w-50 p-3 d-inline-block">
+                <h4 class="mb-4"><b style="font-size: 30px;">About Eminota</b></h4>
+                <p style="font-size: 18px;">Eminota is a printing and publishing company that is very passionate about bringing and giving the best services you could have. Our customer satisafaction is key both in quality and in timing.</p>
+            </div>
+            <div class="img1 d-inline-block"><img src="images/logo-black.jpg" alt="logo-black"></div>
+            <div class="sth border"></div>
+            <div class="box2">
+                <ul class="ul2">
+                    <li class="mb-3 d-inline-block"><a id="link1" href="business.html">Business</a></li>
+                    <li class="mb-3 d-inline-block"><a id="link1" href="about.html">About</a></li>
+                    <li class="mb-3 d-inline-block"><a id="link1" href="services.html">Services</a></li>
+                    <li class="mb-3 d-inline-block"><a id="link3" href="contact.php">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- THE END -->
+    </footer>
+    <a href="#" id="scrb" class="move"><b class="fa fa-arrow-up"></b></a>
+    
+    
+
+
+  
+    
+    
+
+
+
+
+
+
+
+
+<script src="js/jquery2.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>
