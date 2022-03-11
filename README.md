@@ -1,1 +1,1 @@
-This repository contains an underhoing and unfinished project
+This repository contains an undergoing and unfinished project
