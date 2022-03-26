@@ -108,7 +108,7 @@ if(!empty($_POST['submitForm'])){
             <h3 style="color: blue">Contact Us</h3>
             <h1><b>Send Message</b></h1>
             <!-- FORM FOR SUBMISSION -->
-            <form action="mailto:eminotaa@yahoo.com" method="POST">
+            <form action="mailto:eminotaa@yahoo.com" method="POST" name='form'>
                 
                 <?php if(!empty($errors['success'])){ ?>
                     <span class="text-success h1"><b><?=$errors['success']; ?></b></span>
@@ -126,7 +126,7 @@ if(!empty($_POST['submitForm'])){
                     <span class="text-danger"><?=$errors['inform1']; ?></span>
                 <?php } ?>
 
-                <textarea name="comment" id="comments" cols="64" rows="6" minlength="10" placeholder="What are you looking for?" class="form-control mb-4 inform" value="<?php if(!empty($_POST['comment'])){ echo $_POST['comment'];} ?>"></textarea>
+                <textarea name="comment" id="comments" cols="64" rows="6" minlength="10" placeholder="How can we help you?" class="form-control mb-4 inform" value="<?php if(!empty($_POST['comment'])){ echo $_POST['comment'];} ?>" onClick = "select_area();"></textarea>
 
                 <?php if(!empty($errors['comment'])){ ?>
                     <span class="text-danger d-block"><?=$errors['comment']; ?></span>
@@ -136,7 +136,7 @@ if(!empty($_POST['submitForm'])){
                     <span class="text-danger d-block"><?=$errors['no_of_words']; ?></span>
                 <?php } ?>
 
-                <input id="submitForm" name="submitForm" type="submit" class="link1" value="Submit">
+                <input id="submitForm" name="submitForm" type="submit" class="link1" value="Submit" onClick="validate_text();">
             </form>
         </div>
         <div class="other d-inline-block text-align-center p-4">
@@ -162,10 +162,10 @@ if(!empty($_POST['submitForm'])){
             <div class="sth border" style="margin-bottom: 40px;"></div>
             <div class="box2" style="margin-left: 60px;">
                 <ul class="ul2">
-                    <li class="mb-3 d-inline-block"><a id="link1" href="business.html">Business</a></li>
-                    <li class="mb-3 d-inline-block"><a id="link1" href="about.html">About</a></li>
-                    <li class="mb-3 d-inline-block"><a id="link1" href="services.html">Services</a></li>
-                    <li class="mb-3 d-inline-block"><a id="link3" href="contact.php">Contact Us</a></li>
+                    <li class="mb-3 d-inline-block adj"><a id="link1" href="business.html">Business</a></li>
+                    <li class="mb-3 d-inline-block adj"><a id="link1" href="about.html">About</a></li>
+                    <li class="mb-3 d-inline-block adj"><a id="link1" href="services.html">Services</a></li>
+                    <li class="mb-3 d-inline-block adj"><a id="link3" href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>
