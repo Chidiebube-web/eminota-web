@@ -34,12 +34,46 @@ if(!empty($_POST['submitForm'])){
         $errors['success'] = "Message sent successfully";
     }
 
+    $subject = "Hey";
+    $subject2 = "Confirmed";
     // if(empty($errors)){
     //     $errors['sucess'] = 'Sent Successfully';
     //     // echo "<pre>";
     //     // print_r($formInfo);
     // }
 
+    $mailto = "chidiebubeonyekwelu@gmail.com";
+    //Body I'll receive
+    $message = "Client name: ". $fullname . "\n" . "Email: ". $inform1 . "Message: ". $comment;
+
+    $message2 = "Dear ". $fullname . "\n" . "Thank you for contacting us. We will get back to you shortly!". "\n\n" . "You submitted the following message: ". "\n" . $comment . "\n\n" . "Thanks";
+
+    // Email headers
+    $headers = "From: " . $inform1;
+    $headers2 = "From: ". $mailto;
+
+    $result1 = mail($mailto, $subject, $message, $headers);
+    $result2 = mail($inform1, $subject2, $message2, $headers2);
+
+    // require 'PHPMailer-master/PHPMailerAutoload.php';
+    // $mail = new PHPMailer;
+    // $mail->isSMTP();
+    // $mail->SMTPSecure = 'ssl';
+    // $mail->SMTPAuth = true;
+    // $mail->Host = 'smtp.gmail.com';
+    // $mail->Port = 465;
+    // $mail->Username = 'chidiebubeonyekwelu@gmail.com';
+    // $mail->Password = 'Chidiebube02/12/2003';
+    // $mail->setFrom('chidiebubeonyekwelu@gmail.com');
+    // $mail->addAddress('chidiebubeonyekwelu@yahoo.com');
+    // $mail->Subject = 'Hello from PHPMailer!';
+    // $mail->Body = 'This is a test.';
+    // //send the message, check for errors
+    // if (!$mail->send()) {
+    //     echo "ERROR: " . $mail->ErrorInfo;
+    // } else {
+    //     echo "SUCCESS";
+    // }
 }
 
 
@@ -108,10 +142,10 @@ if(!empty($_POST['submitForm'])){
             <h3 style="color: blue">Contact Us</h3>
             <h1><b>Send Message</b></h1>
             <!-- FORM FOR SUBMISSION -->
-            <form action="mailto:eminotaa@yahoo.com" method="POST" name='form'>
+            <form onSubmit = "return false" action="" method="POST" name='form'>
                 
                 <?php if(!empty($errors['success'])){ ?>
-                    <span class="text-success h1"><b><?=$errors['success']; ?></b></span>
+                    <span class="text-success" name = "suc" style = "font-size: 1rem"><b><?=$errors['success']; ?></b></span>
                 <?php } ?>
 
                 <input name="fullname" id="fullname" type="text" class="form-control mb-4 inform" placeholder="Your full name" value="<?php if(!empty($_POST['fullname'])){ echo $_POST['fullname'];} ?>">
@@ -136,7 +170,7 @@ if(!empty($_POST['submitForm'])){
                     <span class="text-danger d-block"><?=$errors['no_of_words']; ?></span>
                 <?php } ?>
 
-                <input id="submitForm" name="submitForm" type="submit" class="link1" value="Submit" onClick="validate_text();">
+                <input id="submitForm" name="submitForm" type="submit" class="link1" value="Submit">
             </form>
         </div>
         <div class="other d-inline-block text-align-center p-4">
@@ -150,13 +184,13 @@ if(!empty($_POST['submitForm'])){
             <span>eminotaa@yahoo.com</span>
         </div>
     </section>
-    <!-- FOOTER SECTION OF EMINTOA -->
+    <!-- FOOTER SECTION OF EMINOTA -->
     <footer class="border1" style="height: 450px; background-color: #000; color: #fff; padding-top: 60px;">
         <!-- THE FIRST LAYER THAT CONTAINS THE FOOTER LINKS AND ALL -->
         <div class="container">
             <div class="box1 w-50 p-3 d-inline-block" style="height:250px; margin-bottom: 30px; margin-right: 100px;">
                 <h4 class="mb-4"><b style="font-size: 30px;">About Eminota</b></h4>
-                <p style="font-size: 18px;">Eminota is a printing and publishing company that is very passionate about bringing and giving the best services you could have. Our customer satisafaction is key both in quality and in timing.</p>
+                <p style="font-size: 18px;">Eminota is a printing and publishing company that is very passionate about bringing and giving the best services you could have. Our customer satisfaction is key both in quality and in timing.</p>
             </div>
             <div class="img1 d-inline-block" style="width: 35%; height: 130px; margin-top: 60px; "><img src="images/logo-black.jpg" alt="logo-black"></div>
             <div class="sth border" style="margin-bottom: 40px;"></div>

@@ -48,7 +48,8 @@ header{
 
 .bars{
     float: right;
-    margin-right: 50px;
+    margin-right: 5%;
+    vertical-align: middle;
 }
 
 .nav{
@@ -162,6 +163,11 @@ img{
     display: inline-block;
     /* border: 2px solid blue; */
     /* padding: 10px; */
+}
+
+.larger{
+    color: #0000ff;
+    font-size: 40px;
 }
 
 .welcome .image, .welcome .wordings{
@@ -514,7 +520,7 @@ footer .container .box2 .adj{
 }
 
 .resize1{
-    width: 25% !important;
+    width: 24% !important;
 }
 
 #link1:hover{
@@ -524,7 +530,6 @@ footer .container .box2 .adj{
 #link3{
     color: grey;
     font-size: 20px; 
-    margin-right: 110px;
 }
 
 #link3:hover{
@@ -709,7 +714,11 @@ footer .container .box2 .adj{
 @media(max-width: 770px){
     .logo{
         width: 40%;
-        margin-right: 50%; 
+        vertical-align: middle; 
+    }
+
+    .resize{
+        width: 20%;
     }
 
     ul{
@@ -776,7 +785,6 @@ footer .container .box2 .adj{
 @media(max-width: 430px){
     .logo{
         width: 65%;
-        margin-right: 70px;
     }
     
     .welcome{
@@ -786,13 +794,30 @@ footer .container .box2 .adj{
         height: 100em;
         padding-left: 10px;
         box-sizing: border-box;
-    
     }
+
+    .larger{
+        font-size: 2rem;
+    }
+    
+    .welcome .two{
+        padding: 10px;
+    }
+
+    .welcome .two .hh{
+        width: 100%;
+    }
+
+    .welcome .two .image{
+        width: 100%;
+    }
+
     .link{
         grid-column: span 1;
         place-items: center center;
         
     }
+
     .welcome>.one>.image>img,
 #img2{
     width: 100%;
