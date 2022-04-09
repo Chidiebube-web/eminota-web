@@ -597,7 +597,6 @@ footer .container .box2 .adj{
     .logo{
         min-height: 60px;
         min-width: 20%;
-        margin-right: 70px;
         margin-left: 0px;
         margin-bottom: 0;
         display: inline-block;
@@ -1202,11 +1201,11 @@ footer .container .box2 .adj{
 }
 
 .flyer{
-    height: 800px;
+    min-height: 900px;
 }
 
 .flyer .biz{
-    min-height: 350px;
+    height: 50%;
     padding-left: 60px;
 }
 
@@ -1215,9 +1214,10 @@ footer .container .box2 .adj{
 }
 
 .flyer .biz .imga, .imgb{
-    min-height: 270px;
+    height: 100%;
     width: 44%;
     margin-right: 30px;
+    border: 2px solid red;
 }
 
 .flyer .biz .imgb{
@@ -1315,7 +1315,7 @@ footer .container .box2 .adj{
 }
 
 .brochure .biz .imga, .imgb{
-    min-height: 270px;
+    height: 100%;
     width: 44%;
     margin-right: 30px;
 }
