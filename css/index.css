@@ -1186,8 +1186,14 @@ footer .container .box2 .adj{
     font-size: 40px;
 }
 
-.cards .biz .imga, .imgb{
-    min-height: 270px;
+.cards .biz .imga{
+    height: 100px;
+    width: 44%;
+    margin-right: 30px;
+}
+
+.cards .biz .imgb{
+    height: 100%;
     width: 44%;
     margin-right: 30px;
 }
@@ -1214,7 +1220,7 @@ footer .container .box2 .adj{
 }
 
 .flyer .biz .imga, .imgb{
-    height: 100%;
+    height: 100% !important;
     width: 44%;
     margin-right: 30px;
     border: 2px solid red;
@@ -1248,7 +1254,7 @@ footer .container .box2 .adj{
 }
 
 .publish .biz .imga, .imgb{
-    min-height: 270px;
+    height: 100%;
     width: 44%;
     margin-right: 30px;
 }
