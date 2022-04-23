@@ -1187,8 +1187,8 @@ footer .container .box2 .adj{
 }
 
 .cards .biz .imga{
-    height: 70%;
-    width: 44%;
+    height: 80%;
+    width: 40%;
     margin-right: 30px;
 }
 
@@ -1220,10 +1220,9 @@ footer .container .box2 .adj{
 }
 
 .flyer .biz .imga, .imgb{
-    height: 70% !important;
+    height: 30% !important;
     width: 44%;
     margin-right: 30px;
-    border: 2px solid red;
 }
 
 .flyer .biz .imgb{
@@ -1235,12 +1234,12 @@ footer .container .box2 .adj{
 }
 
 .publish{
-    height: 830px;
+    height: 850px;
     background-color: #F5F6FA;
 }
 
 .publish .biz{
-    min-height: 350px;
+    height: 50%;
     padding-left: 60px;
 }
 
@@ -1254,7 +1253,7 @@ footer .container .box2 .adj{
 }
 
 .publish .biz .imga, .imgb{
-    height: 100%;
+    height: 70%;
     width: 44%;
     margin-right: 30px;
 }
