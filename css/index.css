@@ -608,10 +608,10 @@ footer .container .box2 .adj{
     }
 
     .ul{
-        border: none;
         display: inline-block;
         width: 100%;
         text-align: center;
+        border: none;
         height: 70px;
         background-color: #fff;
         /* margin: 0; */
@@ -619,6 +619,7 @@ footer .container .box2 .adj{
 
     ul li{
         display: inline-block;
+        width: 17%;
     }
 
     .card{
