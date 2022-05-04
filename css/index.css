@@ -713,6 +713,12 @@ footer .container .box2 .adj{
     }
 }
 
+@media(max-width: 350px){
+    .welcome{
+        height: 1600px !important;
+    }
+}
+
 /* RESPONSIVENESS FOR TABLETS */
 @media(max-width: 770px){
     .logo{
@@ -784,39 +790,74 @@ footer .container .box2 .adj{
     .welcome{
         height: 1100px;
     }
-
-    
-    
 }
 
-@media(max-width: 430px){
+@media(max-width: 700px){
+
+    .welcome{
+        height: 1300px;
+    }
+
+    .welcome .one .image, .welcome .one .wordings{
+        width: 100%;
+    }
+
+    .welcome .two{
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .welcome .two .hh{
+        width: 100%;
+        position: absolute;
+        z-index: 100;
+        bottom: 0;
+        padding: 30px;
+        height: 40%;
+    }
+
+    .welcome .two .image{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 60%;
+        padding: 30px;
+    }
+}
+
+@media(max-width: 700px){
     .logo{
         width: 65%;
     }
     
     .welcome{
-        display: grid;
-        grid-template-columns:100%;
-        grid-template-rows:repeat(4,auto) 50px;
-        height: 100em;
-        padding-left: 10px;
-        box-sizing: border-box;
+        height: 1400px;
     }
 
     .larger{
         font-size: 2rem;
     }
-    
+
     .welcome .two{
-        padding: 10px;
+        position: relative;
+        margin-bottom: 50px;
     }
 
     .welcome .two .hh{
         width: 100%;
+        position: absolute;
+        z-index: 100;
+        bottom: 0;
+        padding: 30px;
+        height: 40%;
     }
 
     .welcome .two .image{
         width: 100%;
+        position: absolute;
+        left: 0;
+        height: 60%;
+        padding: 30px;
     }
 
     .link{
@@ -867,7 +908,7 @@ footer .container .box2 .adj{
     }
 
     .ads{
-        height: 800px !important;
+        height: 900px !important;
         padding-top: 30px !important;
     }
 
@@ -892,7 +933,7 @@ footer .container .box2 .adj{
     }
 
     .business .stuff a{
-        width: 35%;
+        width: 150px;
     }
 
     .business .gosh .better{
@@ -910,6 +951,7 @@ footer .container .box2 .adj{
     .print .box1{
         width: 100%;
         padding-top: 30px;
+        margin-bottom: 20px;
     }
 
     .print .box2{
