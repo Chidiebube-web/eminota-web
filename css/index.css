@@ -1203,6 +1203,10 @@ footer .container .box2 .adj{
         padding-left: 0px !important;
     }
 
+    .print{
+        height: 500px !important;
+    }
+
     .print .box1{
         margin-bottom: 40px !important;
     }
@@ -1217,6 +1221,34 @@ footer .container .box2 .adj{
 
     .print .box2{
         display: none !important;
+    }
+
+    .ads .box1{
+        height: 350px;
+    }
+
+    .colour .box1 h1 b{
+        font-size: 1.3em;
+    }
+
+    .recent{
+        height: 1300px !important;
+    }
+
+    .pics .img1{
+        width: 100%;
+    }
+
+    .pics .img1:last-child{
+        display: block !important;
+    }
+
+    footer .container .box1{
+        height: 250px !important; 
+    }
+
+    footer .container .sth{
+        margin-bottom: 20px !important;
     }
 }
 
