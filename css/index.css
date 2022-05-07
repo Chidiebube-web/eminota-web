@@ -557,701 +557,6 @@ footer .container .box2 .adj{
     color: blue;
 }
 
-/* RESPONSIVENESS */
-
-@media(min-width: 2500px) {
-    .brochure .biz .imga{
-        height: 250px !important;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
-    }
-
-    #collapseExample {
-        float: right;
-    }
-}
-
-@media(min-width: 1400px){
-    ul li{
-        width: 19%;
-        margin-right: 0px;
-    }
-
-    #link1{
-        margin-right: 220px !important;
-        display: inline-block;
-    }
-
-    /* CONTACT SECTION */
-    .mapap iframe{
-        display: none;
-    }
-
-    .maps{
-        display: contents;
-    }
-
-    /* ABOUT SECTION */
-    .about .hi{
-        margin-right: 600px !important;
-        display: block;
-    }
-
-    .service_head .hi{
-        margin-right: 510px !important;
-    }
-    /* SERVICE SECTION */
-    .scroll_down_items{
-        margin-right: 70px;
-    }
-}
-
-@media(min-width: 1300px){    
-    .logo{
-        min-height: 60px;
-        min-width: 20%;
-        margin-left: 0px;
-        margin-bottom: 0;
-        display: inline-block;
-    }
-
-    .logo img{
-        font-size: 100px;
-        display:inline-block;
-    }
-
-    .ul{
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-        border: none;
-        height: 70px;
-        background-color: #fff;
-        /* margin: 0; */
-    }
-
-    ul li{
-        display: inline-block;
-        width: 17%;
-    }
-
-    .card{
-        margin-bottom: -90px;
-        margin-top: -20px;
-    }
-
-    .hover{
-        display: none;
-    }
-
-    #collapseExample{
-        display: inline-block;
-        width: 70%;
-        float: right;
-    }
-
-    .list{
-        display: inline-block;
-        width: 110px;
-        margin-right: 30px;
-        color: #000;
-        padding: 0;
-        font-size: 22px;
-    }
-
-    /* WELCOME SECTION */
-    .welcome .one .image{
-        margin-right: 100px;
-        border: 2px solid #000;
-    }
-
-    .welcome .two .wordings{
-        margin-right: 100px;
-    }
-
-    .welcome .two .image{
-        width: 45%;
-    }
-    /* FEATURES OF EMINOTA */
-    .info .box1{
-        margin-left: 130px;
-    }
-
-    .info .box1 .img2{
-        height: 170px;
-    }
-
-    #link{
-        width: 3%;
-    }
-
-    .info .boxa{
-        padding-left: 100px;
-    }
-    /* BUSINESS LINES */
-    .business .gosh .better{
-        display: block;
-    }
-
-    .business .stuff a{
-        width: 11%;
-    }
-    /* COLOURS */
-
-    .colour .box1 h1 b{
-        font-size: 70px;
-    }
-    
-    .colour .box1 p{
-        font-size: 25px;
-    }
-
-    /* FOOTER */
-    #link1{
-        margin-right: 150px;
-    }
-
-    footer .container .box2{
-        padding-left: 140px;
-    }
-
-    /* ABOUT SECTION */
-    .about h1{
-        margin-right: 530px !important;
-    }
-
-    /* SERVICES */
-    .service_head h1{
-        margin-right: 440px !important;
-    }
-}
-
-@media(min-width: 1000px){
-    .nav-item{
-        margin-right: 13px !important;
-    }
-}
-
-/* RESPONSIVENESS FOR TABLETS */
-@media(max-width: 850px){
-    .logo{
-        width: 40%;
-        vertical-align: middle; 
-    }
-
-    .resize{
-        width: 20%;
-    }
-
-    ul{
-        width: 100%;
-    }
-
-
-    .info .box1 .img1, .img2{
-        margin-left: 200px;
-    }
-
-    .business .stuff a{
-        width: 20%;
-    }
-
-    .print{
-        height: 600px !important;
-    }
-
-    .print .box1{
-        width: 50%;
-    }
-
-    footer .container .box2 .ul2 #link1{
-        margin-right: 40px;
-    }
-
-    /* CONTACT SECTION */
-    .contact .body{
-        width: 64% !important; 
-    }
-
-    /* SERVICES SECTION */
-    .nav-header{
-        padding: 0px !important;
-    }
-
-    .nav-header{
-        border: 2px solid red;
-        height: 40px;
-    }
-
-    .scroll_down_head{
-        /* border: 2px solid red; */
-        margin-right: 23px !important;
-    }
-
-    #navbar-example2{
-        display: none;
-    }
-
-    /* ABOUT SECTION */
-    .about h1{
-        margin-right: 196px !important;
-    }
-
-    .that .back .text h1{
-        font-size: 35px !important;
-    }
-    .welcome{
-        height: 1100px;
-    }
-}
-
-@media(max-width: 700px){
-
-    .welcome{
-        height: 1300px;
-    }
-
-    .welcome .one .image, .welcome .one .wordings{
-        width: 100%;
-    }
-
-    .welcome .two{
-        position: relative;
-        margin-bottom: 30px;
-    }
-
-    .welcome .two .hh{
-        width: 100%;
-        position: absolute;
-        z-index: 100;
-        bottom: 0;
-        padding: 30px;
-        height: 40%;
-    }
-
-    .welcome .two .image{
-        width: 100%;
-        position: absolute;
-        left: 0;
-        height: 60%;
-        padding: 30px;
-    }
-
-   .logo{
-        width: 65%;
-    }
-    
-    .welcome{
-        height: 1400px;
-    }
-
-    .larger{
-        font-size: 2rem;
-    }
-
-    .welcome .two{
-        position: relative;
-        margin-bottom: 50px;
-    }
-
-    .welcome .two .hh{
-        width: 100%;
-        position: absolute;
-        z-index: 100;
-        bottom: 0;
-        padding: 30px;
-        height: 40%;
-    }
-
-    .welcome .two .image{
-        width: 100%;
-        position: absolute;
-        left: 0;
-        height: 60%;
-        padding: 30px;
-    }
-
-    .link{
-        grid-column: span 1;
-        place-items: center center;
-        
-    }
-
-    .welcome>.one>.image>img,
-#img2{
-    width: 100%;
-    height: 100%;
-}
-
-
-    .welcome .image, .welcome .wordings{
-        width: 100%;
-    }
-
-    .info .box1 .img1, .img2{
-        margin-left: 0px;
-        width: 100%;
-    }
-
-    .linkto{
-        width: 10%;
-    }
-
-    .info .boxa .boxb{
-        width: 100%;
-        margin-bottom: 40px;
-    }
-
-    .info .boxa.m-5{
-        margin: 0 !important;
-    }
-
-    .advert .img:first-child{
-        display: none !important;
-    }
-
-    .advert .img:last-child{
-        width: 100% !important;
-    }
-
-    .advert{
-        height: 300px !important;
-    }
-
-    .ads{
-        height: 900px !important;
-        padding-top: 30px !important;
-    }
-
-    .ads .box1{
-        width: 100%;
-    }
-
-    .ads .box1 .boxa{
-        height: 100% !important;
-    }
-
-    .carousel.pointer-event{
-        height: 100% !important;
-    }
-
-    .ads .box2{
-        width: 100%;
-    }
-
-    .business h2{
-        font-size: 40px;
-    }
-
-    .business .stuff a{
-        width: 150px;
-    }
-
-    .business .gosh .better{
-        font-size: 20px;
-    }
-
-    .print{
-        height: 900px !important;
-    }
-
-    .print.p-5{
-        padding: 1rem !important;
-    }
-
-    .print .box1{
-        width: 100%;
-        padding-top: 30px;
-        margin-bottom: 20px;
-    }
-
-    .print .box2{
-        width: 100%;
-        padding-top: 0px;
-    }
-
-    .colour{
-        height: 280px !important;
-    }
-
-    .colour .box1{
-        width: 100%;
-        height: 100% !important;
-    }
-
-    .colour .box2{
-        display: none !important;
-    }
-
-    .recent{
-        height: 600px !important;
-    }
-
-    .recent .pics{
-        height: 400px !important;
-        padding-left: 10px !important;
-    }
-
-    .pics .img1{
-        width: 46%;
-    }
-
-    .pics .img1:last-child{
-        display: none !important;
-    }
-
-    footer{
-        height: 500px !important;
-    }
-
-    footer .container .box1{
-        margin-bottom: 30px !important;
-        margin-right: 0px !important; 
-        height: 180px !important;
-    }
-
-    footer .container .box1.w-50{
-        width: 100% !important;
-    }
-
-    footer .container .img1{
-        display: none !important;
-    }
-
-    footer .container .box2{
-        margin-left: 0px !important;
-    }
-
-    .resize{
-        width: 40%;
-    }
-
-    .resize1 {
-        width: 40% !important;
-    }
-
-    ul li{
-        margin-right: 5px !important;
-    }
-
-    /* BUSINESS SECTION */
-    .cards{
-        height: 600px !important;
-    }
-
-    .home_text h1{
-        margin-bottom: 40px;
-        font-size: 3rem !important;
-    }
-
-    .cards .biz{
-        padding-left: 20px !important;
-    }
-
-    .cards .biz:last-child{
-        display: none;
-    }
-
-    .cards .biz .imga, .imgb{
-        width: 100% !important;
-        margin-right: 0px;
-    }
-
-    .cards .biz .imga{
-        margin-bottom: -50px;
-    }
-
-    .flyer{
-        height: 700px !important;
-    }
-
-    .flyer .biz .imga, .imgb{
-        width: 100% !important;
-    }
-
-    .flyer .biz{
-        padding-left: 20px !important;
-    }
-
-    .flyer .biz .imga{
-        margin-bottom: -50px;
-    }
-
-    .flyer .biz:last-child{
-        display: none;
-    }
-
-    .publish{
-        height: 700px !important;
-    }
-
-    .publish .biz .imga, .imgb{
-        width: 100% !important;
-    }
-
-    #info{
-        height: 500px !important;
-    }
-
-    #info .mb-5{
-        margin-bottom: 1rem !important;
-    }
-
-    .publish .biz{
-        padding-left: 20px !important;
-    }
-
-    .publish .biz .imga{
-        margin-bottom: -50px;
-    }
-
-    .publish .biz:last-child{
-        display: none;
-    }
-
-    .banner .biz{
-        padding-left: 20px !important;
-    }
-
-    .banner .biz .imga{
-        width: 100% !important;
-    }
-
-    .banner .biz .imga:last-child{
-        display: none !important;
-    }
-
-    .banner .biz h1{
-        font-size: 2rem !important;
-    }
-
-    .brochure{
-        height: 680px !important;
-    }
-
-    .brochure .biz{
-        padding-left: 20px !important;
-    }
-
-    .brochure .biz .imga, .img{
-        width: 100% !important;
-    }
-
-    /* CONTACT SECTION */
-    .contact{
-        height: 650px !important;
-        border: 2px solid red;
-    }
-
-    .contact .body{
-        width: 100% !important;
-    }
-
-    .contact .other{
-        width: 100% !important;
-        height: 650px !important;
-    }
-}
-
-@media(max-width: 350px){
-    .welcome{
-        height: 1600px !important;
-    }
-
-    .business{
-        height: 500px !important;
-        padding-top: 20px !important;
-    }
-
-    .colour{
-        height: 330px !important;
-    }
-
-    .recent{
-        margin-bottom: 50px;
-    }
-}
-
-@media(max-width: 300px){
-    .welcome{
-        height: 1800px !important;
-    }
-
-    .welcome .one .wordings p{
-        text-align: justify;
-    }
-
-    .welcome .two .hh p{
-        text-align: justify;
-    }
-
-    .welcome .two{
-        margin-bottom: 80px;
-    }
-
-    .info .box1 .img2 p{
-        text-align: justify;
-    }
-
-    .linkto{
-        width: 15%;
-    }
-
-    .advert{
-        padding-top: 0px !important;
-    }
-
-    .advert .img:last-child{
-        padding-left: 0px !important;
-    }
-
-    .print{
-        height: 500px !important;
-    }
-
-    .print .box1{
-        margin-bottom: 40px !important;
-    }
-
-    .print .box1 h1{
-        font-size: 1.5em;
-    }
-
-    .print .box1 p{
-        text-align: justify;
-    }
-
-    .print .box2{
-        display: none !important;
-    }
-
-    .ads .box1{
-        height: 350px;
-    }
-
-    .colour .box1 h1 b{
-        font-size: 1.3em;
-    }
-
-    .recent{
-        height: 1300px !important;
-    }
-
-    .pics .img1{
-        width: 100%;
-    }
-
-    .pics .img1:last-child{
-        display: block !important;
-    }
-
-    footer .container .box1{
-        height: 250px !important; 
-    }
-
-    footer .container .sth{
-        margin-bottom: 20px !important;
-    }
-}
-
 /* THIS SECTION OF THIS STYLESHEET IS FOR BUSINESS */
 
 .business1{
@@ -1333,6 +638,10 @@ footer .container .box2 .adj{
     padding-top: 70px;
 }
 
+.biz-service h1 b{
+    font-size: 50px;
+}
+
 .cards{
     height: 800px;
     background-color: #F5F6FA;
@@ -1341,6 +650,10 @@ footer .container .box2 .adj{
 .cards .biz{
     height: 50%;
     padding-left: 60px;
+}
+
+.cards .biz:last-child{
+    padding-top: 30px;
 }
 
 .cards .biz h1{
@@ -1825,5 +1138,747 @@ footer .container .box2 .adj{
 .service-end h1{
     color: #ffff;
     font-size: 40px;
+}
+
+
+/* RESPONSIVENESS */
+
+@media(min-width: 2500px) {
+    .brochure .biz .imga{
+        height: 250px !important;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+    }
+
+    #collapseExample {
+        float: right;
+    }
+}
+
+@media(min-width: 1400px){
+    ul li{
+        width: 19%;
+        margin-right: 0px;
+    }
+
+    #link1{
+        margin-right: 220px !important;
+        display: inline-block;
+    }
+
+    /* CONTACT SECTION */
+    .mapap iframe{
+        display: none;
+    }
+
+    .maps{
+        display: contents;
+    }
+
+    /* ABOUT SECTION */
+    .about .hi{
+        margin-right: 600px !important;
+        display: block;
+    }
+
+    .service_head .hi{
+        margin-right: 510px !important;
+    }
+    /* SERVICE SECTION */
+    .scroll_down_items{
+        margin-right: 70px;
+    }
+}
+
+@media(min-width: 1300px){    
+    .logo{
+        min-height: 60px;
+        min-width: 20%;
+        margin-left: 0px;
+        margin-bottom: 0;
+        display: inline-block;
+    }
+
+    .logo img{
+        font-size: 100px;
+        display:inline-block;
+    }
+
+    .ul{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        border: none;
+        height: 70px;
+        background-color: #fff;
+        /* margin: 0; */
+    }
+
+    ul li{
+        display: inline-block;
+        width: 17%;
+    }
+
+    .card{
+        margin-bottom: -90px;
+        margin-top: -20px;
+    }
+
+    .hover{
+        display: none;
+    }
+
+    #collapseExample{
+        display: inline-block;
+        width: 70%;
+        float: right;
+    }
+
+    .list{
+        display: inline-block;
+        width: 110px;
+        margin-right: 30px;
+        color: #000;
+        padding: 0;
+        font-size: 22px;
+    }
+
+    /* WELCOME SECTION */
+    .welcome .one .image{
+        margin-right: 100px;
+        border: 2px solid #000;
+    }
+
+    .welcome .two .wordings{
+        margin-right: 100px;
+    }
+
+    .welcome .two .image{
+        width: 45%;
+    }
+    /* FEATURES OF EMINOTA */
+    .info .box1{
+        margin-left: 130px;
+    }
+
+    .info .box1 .img2{
+        height: 170px;
+    }
+
+    #link{
+        width: 3%;
+    }
+
+    .info .boxa{
+        padding-left: 100px;
+    }
+    /* BUSINESS LINES */
+    .business .gosh .better{
+        display: block;
+    }
+
+    .business .stuff a{
+        width: 11%;
+    }
+    /* COLOURS */
+
+    .colour .box1 h1 b{
+        font-size: 70px;
+    }
+    
+    .colour .box1 p{
+        font-size: 25px;
+    }
+
+    /* FOOTER */
+    #link1{
+        margin-right: 150px;
+    }
+
+    footer .container .box2{
+        padding-left: 140px;
+    }
+
+    /* ABOUT SECTION */
+    .about h1{
+        margin-right: 530px !important;
+    }
+
+    /* SERVICES */
+    .service_head h1{
+        margin-right: 440px !important;
+    }
+}
+
+@media(min-width: 1000px){
+    .nav-item{
+        margin-right: 13px !important;
+    }
+}
+
+/* RESPONSIVENESS FOR TABLETS */
+@media(max-width: 850px){
+    .logo{
+        width: 40%;
+        vertical-align: middle; 
+    }
+
+    .resize{
+        width: 20%;
+    }
+
+    ul{
+        width: 100%;
+    }
+
+
+    .info .box1 .img1, .img2{
+        margin-left: 200px;
+    }
+
+    .business .stuff a{
+        width: 20%;
+    }
+
+    .print{
+        height: 600px !important;
+    }
+
+    .print .box1{
+        width: 50%;
+    }
+
+    footer .container .box1{
+        margin-right: 50px !important;
+    }
+
+    footer .container .box2 .ul2 #link1{
+        margin-right: 40px;
+    }
+
+    /* CONTACT SECTION */
+    .contact .body{
+        width: 64% !important; 
+    }
+
+    /* SERVICES SECTION */
+    .nav-header{
+        padding: 0px !important;
+    }
+
+    .nav-header{
+        border: 2px solid red;
+        height: 40px;
+    }
+
+    .scroll_down_head{
+        /* border: 2px solid red; */
+        margin-right: 23px !important;
+    }
+
+    #navbar-example2{
+        display: none;
+    }
+
+    /* ABOUT SECTION */
+    .about h1{
+        margin-right: 196px !important;
+    }
+
+    .that .back .text h1{
+        font-size: 35px !important;
+    }
+    .welcome{
+        height: 1100px;
+    }
+}
+
+@media(max-width: 767px){
+    footer .container .box2{
+        margin-left: 0px !important;
+    }
+}
+
+@media(max-width: 700px){
+
+    .welcome{
+        height: 1300px;
+    }
+
+    .welcome .one .image, .welcome .one .wordings{
+        width: 100%;
+    }
+
+    .welcome .two{
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .welcome .two .hh{
+        width: 100%;
+        position: absolute;
+        z-index: 100;
+        bottom: 0;
+        padding: 30px;
+        height: 40%;
+    }
+
+    .welcome .two .image{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 60%;
+        padding: 30px;
+    }
+
+   .logo{
+        width: 65%;
+    }
+    
+    .welcome{
+        height: 1400px;
+    }
+
+    .larger{
+        font-size: 2rem;
+    }
+
+    .welcome .two{
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .welcome .two .hh{
+        width: 100%;
+        position: absolute;
+        z-index: 100;
+        bottom: 0;
+        padding: 30px;
+        height: 40%;
+    }
+
+    .welcome .two .image{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 60%;
+        padding: 30px;
+    }
+
+    .link{
+        grid-column: span 1;
+        place-items: center center;
+        
+    }
+
+    .welcome>.one>.image>img,
+#img2{
+    width: 100%;
+    height: 100%;
+}
+
+
+    .welcome .image, .welcome .wordings{
+        width: 100%;
+    }
+
+    .info .box1 .img1, .img2{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .linkto{
+        width: 10%;
+    }
+
+    .info .boxa .boxb{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .info .boxa.m-5{
+        margin: 0 !important;
+    }
+
+    .advert .img:first-child{
+        display: none !important;
+    }
+
+    .advert .img:last-child{
+        width: 100% !important;
+    }
+
+    .advert{
+        height: 300px !important;
+    }
+
+    .ads{
+        height: 900px !important;
+        padding-top: 30px !important;
+    }
+
+    .ads .box1{
+        width: 100%;
+    }
+
+    .ads .box1 .boxa{
+        height: 100% !important;
+    }
+
+    .carousel.pointer-event{
+        height: 100% !important;
+    }
+
+    .ads .box2{
+        width: 100%;
+    }
+
+    .business h2{
+        font-size: 40px;
+    }
+
+    .business .stuff a{
+        width: 150px;
+    }
+
+    .business .gosh .better{
+        font-size: 20px;
+    }
+
+    .print{
+        height: 900px !important;
+    }
+
+    .print.p-5{
+        padding: 1rem !important;
+    }
+
+    .print .box1{
+        width: 100%;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .print .box2{
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .colour{
+        height: 280px !important;
+    }
+
+    .colour .box1{
+        width: 100%;
+        height: 100% !important;
+    }
+
+    .colour .box2{
+        display: none !important;
+    }
+
+    .recent{
+        height: 600px !important;
+    }
+
+    .recent .pics{
+        height: 400px !important;
+        padding-left: 10px !important;
+    }
+
+    .pics .img1{
+        width: 46%;
+    }
+
+    .pics .img1:last-child{
+        display: none !important;
+    }
+
+    footer{
+        height: 500px !important;
+    }
+
+    footer .container .box1{
+        margin-bottom: 60px !important;
+        margin-right: 0px !important; 
+        height: 180px !important;
+    }
+
+    footer .container .box1.w-50{
+        width: 100% !important;
+    }
+
+    footer .container .img1{
+        display: none !important;
+    }
+
+    footer .container .box2{
+        margin-left: 0px !important;
+    }
+
+    .resize{
+        width: 40%;
+    }
+
+    .resize1 {
+        width: 40% !important;
+    }
+
+    ul li{
+        margin-right: 5px !important;
+    }
+
+    /* BUSINESS SECTION */
+    .biz-service{
+        height: 100px !important;
+        padding-top: 50px !important;
+    }
+
+    .biz-service h1 b{
+        font-size: 2rem !important;
+    }
+
+    .cards{
+        height: 1500px !important;
+    }
+
+    .cards .biz{
+        position: relative;
+        padding-left: 0px !important;
+    }
+
+    .cards .biz:nth-child(1){
+        border: 2px solid green;
+        margin-bottom: 250px !important;
+    }
+
+    .cards .biz:last-child{
+        border: 2px solid red;
+        padding-top: 10px !important;
+    }
+
+    .cards .biz .imga{
+        height: 100% !important;
+    }
+    
+    .cards .biz .imga:last-child{
+        height: 70% !important;
+        position: absolute;
+        top: 0;
+    }
+
+    .cards .biz .imgb{
+        height: 10% !important;
+        padding-top: 50px !important;
+    }
+
+    .cards .biz .imgb:nth-child(1){
+        position: absolute;
+        bottom: 0;
+    }
+
+    .home_text h1{
+        margin-bottom: 40px;
+        font-size: 3rem !important;
+    }
+
+    .cards .biz .imga, .imgb{
+        width: 100% !important;
+        margin-right: 0px;
+    }
+
+    .cards .biz .imga{
+        margin-bottom: -50px;
+    }
+
+    .flyer{
+        height: 700px !important;
+    }
+
+    .flyer .biz .imga, .imgb{
+        width: 100% !important;
+    }
+
+    .flyer .biz{
+        padding-left: 20px !important;
+    }
+
+    .flyer .biz .imga{
+        margin-bottom: -50px;
+    }
+
+    .flyer .biz:last-child{
+        display: none;
+    }
+
+    .publish{
+        height: 700px !important;
+    }
+
+    .publish .biz .imga, .imgb{
+        width: 100% !important;
+    }
+
+    #info{
+        height: 500px !important;
+    }
+
+    #info .mb-5{
+        margin-bottom: 1rem !important;
+    }
+
+    .publish .biz{
+        padding-left: 20px !important;
+    }
+
+    .publish .biz .imga{
+        margin-bottom: -50px;
+    }
+
+    .publish .biz:last-child{
+        display: none;
+    }
+
+    .banner .biz{
+        padding-left: 20px !important;
+    }
+
+    .banner .biz .imga{
+        width: 100% !important;
+    }
+
+    .banner .biz .imga:last-child{
+        display: none !important;
+    }
+
+    .banner .biz h1{
+        font-size: 2rem !important;
+    }
+
+    .brochure{
+        height: 680px !important;
+    }
+
+    .brochure .biz{
+        padding-left: 20px !important;
+    }
+
+    .brochure .biz .imga, .img{
+        width: 100% !important;
+    }
+
+    /* CONTACT SECTION */
+    .contact{
+        height: 650px !important;
+        border: 2px solid red;
+    }
+
+    .contact .body{
+        width: 100% !important;
+    }
+
+    .contact .other{
+        width: 100% !important;
+        height: 650px !important;
+    }
+}
+
+@media(max-width: 350px){
+    .welcome{
+        height: 1600px !important;
+    }
+
+    .business{
+        height: 500px !important;
+        padding-top: 20px !important;
+    }
+
+    .colour{
+        height: 330px !important;
+    }
+
+    .recent{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 300px){
+    .welcome{
+        height: 1800px !important;
+    }
+
+    .welcome .one .wordings p{
+        text-align: justify;
+    }
+
+    .welcome .two .hh p{
+        text-align: justify;
+    }
+
+    .welcome .two{
+        margin-bottom: 80px;
+    }
+
+    .info .box1 .img2 p{
+        text-align: justify;
+    }
+
+    .linkto{
+        width: 15%;
+    }
+
+    .advert{
+        padding-top: 0px !important;
+    }
+
+    .advert .img:last-child{
+        padding-left: 0px !important;
+    }
+
+    .print{
+        height: 500px !important;
+    }
+
+    .print .box1{
+        margin-bottom: 40px !important;
+    }
+
+    .print .box1 h1{
+        font-size: 1.5em;
+    }
+
+    .print .box1 p{
+        text-align: justify;
+    }
+
+    .print .box2{
+        display: none !important;
+    }
+
+    .ads .box1{
+        height: 350px;
+    }
+
+    .colour .box1 h1 b{
+        font-size: 1.3em;
+    }
+
+    .recent{
+        height: 1300px !important;
+    }
+
+    .pics .img1{
+        width: 100%;
+    }
+
+    .pics .img1:last-child{
+        display: block !important;
+    }
+
+    footer .container .box1{
+        height: 250px !important; 
+    }
+
+    footer .container .sth{
+        margin-bottom: 10px !important;
+    }
 }
 
