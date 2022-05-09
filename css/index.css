@@ -1638,6 +1638,7 @@ footer .container .box2 .adj{
 
     .cards{
         height: 1500px !important;
+        border: 2px solid green;
     }
 
     .cards .biz{
@@ -1667,12 +1668,12 @@ footer .container .box2 .adj{
 
     .cards .biz .imgb{
         height: 10% !important;
-        padding-top: 50px !important;
+        padding-top: 0px !important;
     }
 
     .cards .biz .imgb:nth-child(1){
         position: absolute;
-        bottom: 0;
+        bottom: 100px;
     }
 
     .home_text h1{
